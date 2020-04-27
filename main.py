@@ -39,7 +39,6 @@ class ArticleOut(BaseModel):
 def get_article(
 	url: str = Query(
 		...,
-		alias="article_url",
 		title="Article URL", 
 		description="The URL of the requested article."
 		)
